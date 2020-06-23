@@ -1,0 +1,40 @@
+body {
+    overflow: hidden;
+}
+
+.App {
+    text-align: center;
+}
+
+.Messages {
+    min-height: 68vh;
+    max-height: 68vh;
+    overflow-y: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Message {
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    color: black;
+}
+
+.InputBox {
+    position: absolute;
+    left: 0;
+    bottom: 2vh;
+    width: 100%;
+    height: 5vh;
+}
+
+.Gifs {
+    min-height: 15vh;
+    overflow-x: auto;
+    margin-bottom: 7vh;
+    white-space: nowrap;
+}
